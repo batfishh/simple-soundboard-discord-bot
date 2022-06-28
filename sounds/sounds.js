@@ -4,5 +4,6 @@ export default  {
     3: "FbiOpenUp.mp3",
     4: "MomGetTheCamera.mp3",
     5: "KirikSinging.mp3",
-    6: "MilanWatching.mp3"
+    6: "FailHorn.mp3",
+    6: "MangekyoSharingan.mp3"
 }
