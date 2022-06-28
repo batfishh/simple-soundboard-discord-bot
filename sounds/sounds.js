@@ -5,5 +5,8 @@ export default  {
     4: "MomGetTheCamera.mp3",
     5: "KirikSinging.mp3",
     6: "FailHorn.mp3",
-    7: "MangekyoSharingan.mp3"
+    7: "MangekyoSharingan.mp3",
+    8: "HohoHaha.mp3",
+    9: "NoOneHasEverDoneThat.mp3",
+    10: "OiOi.mp3"
 }

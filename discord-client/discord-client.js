@@ -79,7 +79,7 @@ export default class DiscordClient {
         if (msg.content.split(" ").length === 2) {
           const arg2 = msg.content.split(" ")[1].trim()
           if(arg2==="help"){
-            msg.reply(`type \`\`\`.-ssb <number>\`\`\`\n Sound board numbers : ${JSON.stringify(sounds,null, 4)} `)
+            msg.reply(`type \`\`\`.-ssb <number>\`\`\`\n Sound board numbers : ${JSON.stringify(sounds,null, 4)} \n © https://github.com/batfishh/`)
           }
           if(arg2==="stop"){
             this.destroyConnection()
