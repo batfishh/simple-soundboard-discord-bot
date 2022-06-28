@@ -16,5 +16,8 @@
     "dotenv": "^16.0.1",
     "sodium-native": "^3.3.0"
   },
-  "type": "module"
+  "type": "module",
+  "engines" : { 
+    "node" : "16.15.0"
+  }
 }
