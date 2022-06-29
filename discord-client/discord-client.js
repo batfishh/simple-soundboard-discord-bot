@@ -1,5 +1,6 @@
 import dotenv from "dotenv";
 import Discord from "discord.js";
+import numberToEmoji from "number-to-emoji"
 import {
   joinVoiceChannel,
   createAudioPlayer,
@@ -79,7 +80,11 @@ export default class DiscordClient {
         if (msg.content.split(" ").length === 2) {
           const arg2 = msg.content.split(" ")[1].trim()
           if(arg2==="help"){
-            msg.reply(`type \`\`\`.-ssb <number>\`\`\`\n Sound board numbers : ${JSON.stringify(sounds,null, 4)} \n © https://github.com/batfishh/`)
+            let helpOptions = ""
+            Object.keys(sounds).forEach((soundNumber)=>{
+              helpOptions += `${numberToEmoji.toEmoji(soundNumber)} -> ${sounds[soundNumber]}\n`
+            })
+            msg.reply(`type \`\`\`.-ssb <number>\`\`\`\n Sound board numbers :\n${helpOptions} \n © https://github.com/batfishh/`)
           }
           if(arg2==="stop"){
             this.destroyConnection()
