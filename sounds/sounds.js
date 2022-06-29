@@ -8,5 +8,6 @@ export default  {
     7: "MangekyoSharingan.mp3",
     8: "HohoHaha.mp3",
     9: "NoOneHasEverDoneThat.mp3",
-    10: "OiOi.mp3"
+    10: "OiOi.mp3",
+    11: "MilanWatching.mp3"
 }
